@@ -12,7 +12,7 @@ services:
     depends_on:
       - zookeeper
     environment:
-      # Обязательные переменные для Kafka 3.0+
+      # Обязательные параметры для Kafka 3.0+
       KAFKA_PROCESS_ROLES: "broker"  # <-- КРИТИЧЕСКИ ВАЖНО
       KAFKA_NODE_ID: 1               # <-- КРИТИЧЕСКИ ВАЖНО
       
